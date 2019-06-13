@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>佛山会计学会-继续教育</title>
+		<link rel="stylesheet" href="js/layuiadmin/layui/css/layui.css" media="all"><!--公共样式-->		
+		<link rel="stylesheet" href="css/iconfont.css" media="all"> <!--公共样式-->	                                                                 
+		<link rel="stylesheet" href="css/swiper.min.css"><!--公共样式-->	
+		<link rel="stylesheet" href="css/fshjxh-web.css" media="all">
+	</head>
+	<body>
+		<!--top-->
+		<div class="my-top">
+			<div class="layui-container">
+				<div class="layui-row">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 logo">
+						<a href="index.html"><img src="img/my-logo.png" /></a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md9">
+						<ul class="layui-nav" lay-filter="">
+							<li class="layui-nav-item"><a href="index.html">首页</a></li>
+							<li class="layui-nav-item layui-this"><a href="jxjy.html">继续教育平台</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">职称考试</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">学会公告</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">政策法规</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">培训信息</a></li>
+							<li class="layui-nav-item"><a href="vip.html">会员服务</a></li>
+							<li class="layui-nav-item">								
+						    	<a href="javascript:;"><img src="img/user.png" />陈伟明</a>
+							    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+							    	<dd><a href="my.html">修改资料</a></dd>
+							    	<dd><a href="my-kc.html">我的订单</a></dd>
+							    	<dd><a href="">退出登陆</a></dd>
+							    </dl>
+							</li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--part1-->
+		<div class="layui-container cart">
+			<div class="step">
+				<ol class="steps">
+			        <li class="step-active">
+			            <div class="step-line"></div>
+			            <div class="step-content">
+			                <span class="step-num"><i class="iconfont icon-icon_right"></i></span>
+			                <div class="step-text">购物车</div>
+			            </div>			
+			        </li>
+			        <li>
+			            <div class="step-line"></div>
+			            <div class="step-content">
+			                <span class="step-num">2</span>
+			                <div class="step-text">提交订单</div>
+			            </div>
+			        </li>			        
+			        <li class="step-end">
+			            <div class="step-line"></div>
+			            <div class="step-content">
+			                <span class="step-num">3</span>
+			                <div class="step-text">支付</div>
+			            </div>
+			        </li>
+			    </ol>
+			</div>				
+		</div>
+		<!--part2-->
+		<div class="layui-container layui-form cart-form">			
+			<table class="layui-table ">
+				<colgroup>
+				    <col width="60">
+				    <col>
+				    <col width="100">
+				    <col>
+				    <col width="100">				    
+				</colgroup>
+				<thead>
+				    <tr>
+				      <th>全选</th>
+				      <th>商品</th>
+				      <th>数量</th>
+				      <th>价格</th>
+				      <th>操作</th>
+				    </tr> 
+				</thead>
+				<tbody>
+				    <tr>
+				      <td> <input type="checkbox" name="like1[write]" lay-skin="primary" title="" checked=""></td>
+				      <td>2019/继续教育课程/会计专业继续教育</td>
+				      <td>1</td>
+				      <td class="red">￥120.00元</td>
+				      <td><a href="">删除</a></td>
+				    </tr>
+				    <tr>
+				      <td> <input type="checkbox" name="like1[write]" lay-skin="primary" title="" checked=""></td>
+				      <td>2019/继续教育课程/会计专业继续教育</td>
+				      <td>1</td>
+				      <td class="red">￥120.00元</td>
+				      <td><a href="">删除</a></td>
+				    </tr>
+				    <tr>
+				      <td> <input type="checkbox" name="like1[write]" lay-skin="primary" title="" checked=""></td>
+				      <td>2019/继续教育课程/会计专业继续教育</td>
+				      <td>1</td>
+				      <td class="red">￥120.00元</td>
+				      <td><a href="">删除</a></td>
+				    </tr>
+				</tbody>
+			</table>
+			<div class="total-box">
+				<div class="check"><input type="checkbox" name="like1[write]" lay-skin="primary" title="全选" checked=""></div>
+				<div class="text">已选择<span class="red">2</span>件商品，总价：<span class="red">￥240.00</span>元</div>
+				<div class="btn"><button class="layui-btn layui-btn-fluid layui-btn-danger" onclick="javascript:window.location.href='cart-tjdd.html'">去结算</button></div>
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<section class="top">
+				<div class="layui-container">
+					<b>联系我们</b>        
+					<span>· 市级：83282276</span>
+					<span>· 禅城区：83203351</span> 
+					<span>· 南海区：86229326</span> 
+					<span>· 顺德区：22835586</span>
+					<span>· 高明区：88635656</span>
+					<span>· 三水区：87736245</span>                                      
+				</div>				
+			</section>
+			<section class="layui-container footer">
+				<div class="layui-row layui-col-space20">
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md1"><img src="img/wx.png"></div>
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md3">
+						<h2>联系我们</h2>
+						<p>微信公众号：fshjxh</p>
+						<p>地  址：佛山市季华五路财政大厦</p>
+						<p>传真号码：0757-83282513 </p>
+						<p>邮箱：fs83381225@126.com</p>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 footer-link">
+						<h2>友情链接</h2>
+						<a href="">广东省财政厅</a>
+						<a href="">广东省会计学会</a>
+						<a href="">佛山市财政局</a>
+						<a href="">禅城区财政局</a>
+						<a href="">南海区财政局</a>
+						<a href="">顺德区财政局</a>
+						<a href="">高明区财政局</a>
+						<a href="">三水区财政局</a>
+						<a href="">佛山市文明网</a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+						<p>粤ICP备17138353号-1     粤公网安备 44060402000661号</p>
+						<p>版权所有：佛山市会计学会 CopyRight(c) All Rights Reserved  </p>
+						<p>技术支持：广州普金科技股份有限公司</p>
+						<p>建议使用IE8以上版本浏览器 <img src="img/footer-tu.png"></p>
+					</div>
+				</div>				
+			</section>
+		</footer>
+	</body>
+	<script src="js/layuiadmin/layui/layui.all.js"></script>
+	<script src="js/layuiadmin/laydate/laydate.js"></script>
+	<script>
+		//导航栏
+		var $ = layui.$
+	    element = layui.element;	    
+	    carousel = layui.carousel;
+	    form = layui.form;
+	    laydate = layui.laydate;
+	    //建造实例
+		carousel.render({
+			shade: [0.5, 'gray'], //0.5透明度的灰色背景
+   			content: '加载中...',
+		    elem: '#banner'
+		    ,width: '100%' //设置容器宽度
+		    ,height:'260px'
+		    ,arrow: 'always' //始终显示箭头
+		    //,anim: 'updown' //切换动画方式
+		});
+		//同时绑定多个日期
+		lay('.test-item').each(function(){
+		  laydate.render({
+		    elem: this
+		    ,trigger: 'click'
+		  });
+		}); 
+	    	  		
+	</script>
+</html>

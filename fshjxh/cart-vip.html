@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>佛山会计学会-继续教育</title>
+		<link rel="stylesheet" href="js/layuiadmin/layui/css/layui.css" media="all"><!--公共样式-->		
+		<link rel="stylesheet" href="css/iconfont.css" media="all"> <!--公共样式-->	                                                                 
+		<link rel="stylesheet" href="css/swiper.min.css"><!--公共样式-->	
+		<link rel="stylesheet" href="css/fshjxh-web.css" media="all">
+	</head>
+	<body>
+		<!--top-->
+		<div class="my-top">
+			<div class="layui-container">
+				<div class="layui-row">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 logo">
+						<a href="index.html"><img src="img/my-logo.png" /></a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md9">
+						<ul class="layui-nav" lay-filter="">
+							<li class="layui-nav-item"><a href="index.html">首页</a></li>
+							<li class="layui-nav-item layui-this"><a href="jxjy.html">继续教育平台</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">职称考试</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">学会公告</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">政策法规</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">培训信息</a></li>
+							<li class="layui-nav-item"><a href="vip.html">会员服务</a></li>
+							<li class="layui-nav-item">								
+						    	<a href="javascript:;"><img src="img/user.png" />陈伟明</a>
+							    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+							    	<dd><a href="my.html">修改资料</a></dd>
+							    	<dd><a href="my-kc.html">我的订单</a></dd>
+							    	<dd><a href="">退出登陆</a></dd>
+							    </dl>
+							</li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--part2-->
+		<div class="layui-container layui-form cart-form">	
+			<div class="vip-tips">
+				<h2>温馨提示：</h2>
+				<p>1.申请高级会员需要将身份证扫描件、高级职称证书、学历证书发至学会邮箱gdkjxh@foxmail.com，由广东省会计学会审核通过。</p>
+				<p>2.要求领取会员证的会员则需将大一寸彩色证件照邮寄至：广州市越秀区北京路376号110室，联系电话：020-83170302。</p>
+			</div>
+			<div class="title">
+				<h2>会员证信息</h2>				
+			</div>			
+			<div class="fp">
+				<a href="#">不需要会员证<i></i></a>
+				<a href="#" class="act" id="vip">需要会员证<i></i></a>
+				<p>（温馨提示：需要会员证则需将大一寸彩色证件照邮寄至广东省会计学会，学会将在制证后与发票一起寄出。）</p>
+			</div>
+			<!--收货信息-->
+			<div id="address">
+				<div class="title">
+					<h2>收货人信息</h2>	
+					<div class="edit">
+						<a href="#" class="addr-edit"><i class="iconfont icon-tianjia"></i>新增收货地址</a>
+					</div>
+				</div>
+				<div class="address">
+					<ul>
+						<li>
+							<a href="#" class="addr act"><i></i>陈伟明  广东省</a>
+							<p>
+								<b>陈伟明</b>   
+								<b>广东省广州市越秀区北京路376号</b>   
+								<b>134****0295</b> 
+								<span>默认地址</span>
+								<a href="#">删除</a>
+								<a href="#" class="addr-edit">编辑</a>								
+							</p>
+						</li>						
+						<li>
+							<a href="#" class="addr"><i></i>别佳佳  山东省</a>
+							<p>
+								<b>别佳佳</b>   
+								<b>山东省莱芜市越秀区北京路376号</b>   
+								<b>134****0295</b> 																
+								<a href="#">删除</a>
+								<a href="#" class="addr-edit">编辑</a>
+								<a href="#">设为默认地址</a>
+							</p>
+						</li>
+						<li>
+							<a href="#" class="addr"><i></i>别佳佳  山东省</a>
+							<p>
+								<b>别佳佳</b>   
+								<b>山东省莱芜市越秀区北京路376号</b>   
+								<b>134****0295</b> 																
+								<a href="#">删除</a>
+								<a href="#" class="addr-edit">编辑</a>
+								<a href="#">设为默认地址</a>
+							</p>
+						</li>
+						<li>
+							<a href="#" class="addr"><i></i>别佳佳  山东省</a>
+							<p>
+								<b>别佳佳</b>   
+								<b>山东省莱芜市越秀区北京路376号</b>   
+								<b>134****0295</b> 																
+								<a href="#">删除</a>
+								<a href="#" class="addr-edit">编辑</a>
+								<a href="#">设为默认地址</a>
+							</p>
+						</li>
+						<li>
+							<a href="#" class="addr"><i></i>别佳佳  山东省</a>
+							<p>
+								<b>别佳佳</b>   
+								<b>山东省莱芜市越秀区北京路376号</b>   
+								<b>134****0295</b> 																
+								<a href="#">删除</a>
+								<a href="#" class="addr-edit">编辑</a>
+								<a href="#">设为默认地址</a>
+							</p>
+						</li>						
+					</ul>
+					<div class="more-addressBox"><a href="#" class="more-address">更多地址<i class="layui-icon layui-icon-down"></i></a></div>
+				</div>
+			</div>
+			<!--商品信息-->
+			<div class="title">
+				<h2>商品信息</h2>
+				<div class="edit"><a href="vip.html"><i class="iconfont icon-xiugai-copy"></i>返回修购物车</a></div>
+			</div>
+			<table class="layui-table">
+				<colgroup>
+				    <col>
+				    <col>
+				    <col width="120">
+				    <col>
+				    <col>
+				</colgroup>
+				<thead>
+				    <tr>
+				      <th>商品名称</th>
+				      <th>会员单价(元)</th>
+				      <th>申请年限(年)</th>
+				      <th>会员期限</th>
+				      <th>小计(元)</th>
+				    </tr> 
+				</thead>
+				<tbody>
+				    <tr>
+				      <td>购买【个人初级会员】会费</td>
+				      <td>￥200.0元</td>
+				      <td>1</td>				      				      
+				      <td>2019-05-17 至 2020-05-17</td>				      
+				      <td class="red">￥200.0元</td>
+				    </tr>				    
+				</tbody>
+			</table>
+			<div class="title"><h2>发票信息</h2></div>
+			<div class="fp">
+				<a href="#">不需要发票<i></i></a>
+				<a href="#" class="act" id="Invoice">需要发票<i></i></a>
+				<p>温馨提示：发票统一为电子发票，如需定额发票或纸质发票请提前与工作人员联系，联系电话：0757-83282513</p>
+			</div>
+			<div class="txfp">
+				 <div class="layui-inline">
+				    <label class="layui-form-label"><span>*</span>发票抬头</label>
+				    <div class="layui-input-inline">
+				    	<input type="text" name="number" lay-verify="required|number" autocomplete="off" class="layui-input" placeholder="请输入发票抬头">
+				    </div>
+				</div>
+				<div class="layui-inline">
+				    <label class="layui-form-label">社会信用代码</label>
+				    <div class="layui-input-inline">
+				    	<input type="text" name="number" lay-verify="required|number" autocomplete="off" class="layui-input" placeholder="请输入社会信用代码">
+				    </div>
+				</div>
+				<div class="layui-inline">
+				    <label class="layui-form-label"><span>*</span>电子邮箱</label>
+				    <div class="layui-input-inline">
+				    	<input type="text" name="number" lay-verify="required|number" autocomplete="off" class="layui-input" placeholder="请输入电子邮箱">
+				    </div>
+				</div>
+			</div>
+			
+			
+			<div class="total-box tjdd">
+				<div class="check"><b class="red">3</b> 件商品，总商品金额：<b class="red">￥360.00</b></div>
+				<div class="text">运费：<b class="red">￥0.00</b></div>
+				<div class="text">优惠：<b class="red">￥0.00</b></div>
+				<div class="text">实付金额： <b class="red">￥360.00</b></div>				
+			</div>
+			<div class="jiesuan">
+				<p>寄送至： 云南 迪庆州 香格里拉市 建塘镇 达娃路67号独克宗花巷客户服务中心 收货人：黄丕城 189****6038</p>
+				<div class="btn"><button class="layui-btn layui-btn-fluid layui-btn-danger" onclick="javascript:window.location.href='cart-zf.html'">去结算</button></div>
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<section class="top">
+				<div class="layui-container">
+					<b>联系我们</b>        
+					<span>· 市级：83282276</span>
+					<span>· 禅城区：83203351</span> 
+					<span>· 南海区：86229326</span> 
+					<span>· 顺德区：22835586</span>
+					<span>· 高明区：88635656</span>
+					<span>· 三水区：87736245</span>                                      
+				</div>				
+			</section>
+			<section class="layui-container footer">
+				<div class="layui-row layui-col-space20">
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md1"><img src="img/wx.png"></div>
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md3">
+						<h2>联系我们</h2>
+						<p>微信公众号：fshjxh</p>
+						<p>地  址：佛山市季华五路财政大厦</p>
+						<p>传真号码：0757-83282513 </p>
+						<p>邮箱：fs83381225@126.com</p>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 footer-link">
+						<h2>友情链接</h2>
+						<a href="">广东省财政厅</a>
+						<a href="">广东省会计学会</a>
+						<a href="">佛山市财政局</a>
+						<a href="">禅城区财政局</a>
+						<a href="">南海区财政局</a>
+						<a href="">顺德区财政局</a>
+						<a href="">高明区财政局</a>
+						<a href="">三水区财政局</a>
+						<a href="">佛山市文明网</a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+						<p>粤ICP备17138353号-1     粤公网安备 44060402000661号</p>
+						<p>版权所有：佛山市会计学会 CopyRight(c) All Rights Reserved  </p>
+						<p>技术支持：广州普金科技股份有限公司</p>
+						<p>建议使用IE8以上版本浏览器 <img src="img/footer-tu.png"></p>
+					</div>
+				</div>				
+			</section>
+		</footer>
+	</body>
+	<script src="js/layuiadmin/layui/layui.all.js"></script>
+	<script>
+		//导航栏
+		var $ = layui.$
+	    element = layui.element;	    
+	    form = layui.form;
+	   
+	   //弹出收货地址
+		$("#vip").click(function(event){
+		  	$("#address").toggle("slow");
+		  	e.stopPropagation();
+		});
+	   
+		//弹出填写发票
+		$("#Invoice").click(function(){
+		  	$(".txfp").toggle("slow");
+		});
+		
+		//收起隐藏更多地址
+		$(".more-address").click(function(){
+			$(this).html($(".address ul li:not(:first)").is(":hidden") ? "收起地址<i class=\"layui-icon\">&#xe619;</i>" : "更多地址<i class=\"layui-icon\">&#xe61a;</i>");
+		  	$(".address ul li:not(:first)").toggle("slow");
+		});
+		
+		//弹出修改地址信息		
+		$(".addr-edit").click(function(event){
+			top.layer.open({
+				type: 2,												
+				title:'修改地址信息',
+				area: ['650px', '400px'],
+				fixed: false, //不固定				
+				btn: ['保存','关闭'],
+				btnAlign: 'c',
+		  		shade: [0.7, '#333'],
+				content:'address-add.html',
+				yes: function(index, layero){					
+					layer.close(index);
+					layer.msg('保存成功！');					
+				}
+			});
+			e.stopPropagation();
+		});
+  		
+	</script>
+</html>

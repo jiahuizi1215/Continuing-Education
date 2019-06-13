@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>佛山会计学会-继续教育</title>
+		<link rel="stylesheet" href="js/layuiadmin/layui/css/layui.css" media="all"><!--公共样式-->		
+		<link rel="stylesheet" href="css/iconfont.css" media="all"> <!--公共样式-->	                                                                 
+		<link rel="stylesheet" href="css/swiper.min.css"><!--公共样式-->	
+		<link rel="stylesheet" href="css/fshjxh-web.css" media="all">
+	</head>
+	<body>
+		<!--top-->
+		<div class="my-top">
+			<div class="layui-container">
+				<div class="layui-row">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 logo">
+						<a href="index.html"><img src="img/my-logo.png" /></a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md9">
+						<ul class="layui-nav" lay-filter="">
+							<li class="layui-nav-item"><a href="index.html">首页</a></li>
+							<li class="layui-nav-item layui-this"><a href="jxjy.html">继续教育平台</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">职称考试</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">学会公告</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">政策法规</a></li>
+							<li class="layui-nav-item"><a href="news-list.html">培训信息</a></li>
+							<li class="layui-nav-item"><a href="vip.html">会员服务</a></li>
+							<li class="layui-nav-item">								
+						    	<a href="javascript:;"><img src="img/user.png" />陈伟明</a>
+							    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+							    	<dd><a href="">修改资料</a></dd>
+							    	<dd><a href="">我的订单</a></dd>
+							    	<dd><a href="">退出登陆</a></dd>
+							    </dl>
+							</li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--part1-->
+		<div class="top-bg my-top-bg">
+			<div class="layui-container my-user">
+				<div class="layui-row">
+					<div class="layui-col-xs12 layui-col-sm12 layui-col-md3 logo">
+						<img src="img/user-tu1.png" />
+						<p><span>陈伟明</span><br>您是学会的普通会员</p>
+					</div>
+					<div class="layui-col-xs12 layui-col-sm12 layui-col-md9 con">
+						<h2>学习相关说明：</h2>
+						<div>
+							<p>收费标准：学习费70元（三个工作日后帐户才会激活，请耐心等待）</p>
+							<p>充值方式：网络支付、手机支付、服务点充值、银行汇款</p>
+							<p>服务热线：平台操作咨询：4006821621 平台故障咨询：020-83963838 招生电话：020 -38219595</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--part2-->
+		<div class="layui-container my-box">
+			<div class="my-left">
+				<a href="my.html"><i class="iconfont icon-icon-user"></i>用户信息</a>
+				<a href="my-kc.html" class="act"><i class="iconfont icon-gouwuche"></i>课程订单</a>
+				<a href="my-hf.html"><i class="iconfont icon-50"></i>会费订单</a>
+				<a href="#"><i class="iconfont icon-1"></i>缴费记录</a>
+				<a href="#"><i class="layui-icon layui-icon-password"></i>修改密码</a>
+				<a href="my-address.html"><i class="layui-icon layui-icon-location"></i>收货地址</a>
+			</div>
+			<div class="my-right">
+				<div class="my-search layui-form">
+					
+					<div class="layui-row ">
+						<div class="layui-col-xs12 layui-col-sm12 layui-col-md4">
+							<label class="layui-form-label">订单号：</label>
+						    <div class="layui-input-block">
+						    	<input type="text" name="title" required  lay-verify="required" placeholder="请输入订单编号" autocomplete="off" class="layui-input">
+						    </div>
+						</div>
+						<div class="layui-col-xs12 layui-col-sm12 layui-col-md6">
+							<label class="layui-form-label">支付时间：</label>
+						    <div class="layui-input-block my-time">
+						    	<input type="text" class="layui-input test-item" placeholder="年-月-日">至
+						    	<input type="text" class="layui-input test-item" placeholder="年-月-日">
+						    </div>
+						</div>
+						<div class="layui-col-xs12 layui-col-sm12 layui-col-md2">
+							<button class="layui-btn layui-btn-warm">确定</button>
+							<button class="layui-btn layui-btn-primar">重置</button>
+						</div>
+											
+					</div>
+					
+				</div>
+				<div class="my-right-box">
+					<table class="layui-table" lay-skin="nob">
+						<colgroup>
+						    <col width="200">
+						    <col>
+						    <col>
+						    <col>
+						    <col width="200">
+						    <col>
+						</colgroup>
+						<thead>
+						    <tr>
+						      <th>
+						      	<ul class="layui-nav tableTit" lay-filter="">
+									<li class="layui-nav-item">
+									    <a href="javascript:;">全部订单</a>
+									    <dl class="layui-nav-child">
+									    	<dd><a href="" class="act">全部订单</a></dd>
+									    	<dd><a href="">近三个月订单</a></dd>
+									    	<dd><a href="">近半年内订单</a></dd>
+									    	<dd><a href="">今年内订单</a></dd>
+									    	<dd><a href="">2018年订单</a></dd>
+									    	<dd><a href="">2019年订单</a></dd>
+									    </dl>
+									</li>
+								</ul>
+						      </th>
+						      <th>订单详情</th>
+						      <th>收票人</th>
+						      <th>金额</th>
+						      <th>
+						      	<ul class="layui-nav tableTit" lay-filter="">
+									<li class="layui-nav-item">
+									    <a href="javascript:;">全部状态</a>
+									    <dl class="layui-nav-child">
+									    	<dd><a href="" class="act">全部状态</a></dd>
+									    	<dd><a href="">等待付款</a></dd>
+									    	<dd><a href="">已支付</a></dd>
+									    	<dd><a href="">已完成</a></dd>
+									    </dl>
+									</li>
+								</ul>
+						      </th>
+						      <th>操作</th>
+						    </tr> 
+						</thead>
+					</table>
+					<!--循环记录开始-->						
+					<h2 class="tab-title">
+						<span>2019-04-15  14:32:51</span>
+						<span>订单编号：C201907150982123695412</span>
+						<a href="#"><i class="layui-icon layui-icon-delete"></i> </a>
+					</h2>
+					<div class="tab-conBox">
+						<div>
+						    <ul>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							</ul>
+						</div>						    		
+						<div class="fp-address">
+							<p class="address-pop"><i class="layui-icon layui-icon-username"></i> 陈伟民</p>
+							<div class="address-con">
+								<i></i>
+								<h2>陈伟民会员证收货地址</h2>
+								<p>云南 迪庆州 香格里拉市 建塘镇 达娃路67号独克宗花巷客户服务中心 收货人：黄丕城 189****6038</p>
+							</div>
+						</div>
+						<div>
+							<p>总额 <span class="red">￥ 100.00</span>元</p>
+							<p>（优惠<span class="red">￥.00</span>）</p>
+							<p>网付通  不需要邮寄</p>
+						</div>
+						<div class="link">
+							<p>已支付</p>
+							<p><a href="order-info.html">订单详情</a></p>
+						</div>
+						<div class="link">
+							<p><a href="jxjy.html" class="add-btn">去付款</a></p>
+							<p><a href="jxjy.html">取消订单</a></p>
+						</div>
+					</div>	
+					<!--循环记录结束-->
+					<!--循环记录开始-->						
+					<h2 class="tab-title">
+						<span>2019-04-15  14:32:51</span>
+						<span>订单编号：C201907150982123695412</span>
+						<a href="#"><i class="layui-icon layui-icon-delete"></i> </a>
+					</h2>
+					<div class="tab-conBox">
+						<div>
+						    <ul>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							</ul>
+						</div>						    		
+						<div class="fp-address"><p>需要发票，不需要会员证</p></div>
+						<div>
+							<p>总额 <span class="red">￥ 100.00</span>元</p>
+							<p>（优惠<span class="red">￥.00</span>）</p>
+							<p>网付通  不需要邮寄</p>
+						</div>
+						<div class="link">
+							<p>已支付</p>
+							<p><a href="order-info.html">订单详情</a></p>
+						</div>
+						<div class="link">
+							<p><a href="jxjy.html" class="add-btn">去付款</a></p>
+							<p><a href="jxjy.html">取消订单</a></p>
+						</div>
+					</div>	
+					<!--循环记录结束-->	
+					<!--循环记录开始-->						
+					<h2 class="tab-title">
+						<span>2019-04-15  14:32:51</span>
+						<span>订单编号：C201907150982123695412</span>
+						<a href="#"><i class="layui-icon layui-icon-delete"></i> </a>
+					</h2>
+					<div class="tab-conBox">
+						<div>
+						    <ul>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							</ul>
+						</div>						    		
+						<div class="fp-address">
+							<p><i class="layui-icon layui-icon-username"></i> <a href="#" class="address-pop">陈伟民</a></p>
+							<div class="address-con">
+								<i></i>
+								<h2>陈伟民会员证收货地址</h2>
+								<p>云南 迪庆州 香格里拉市 建塘镇 达娃路67号独克宗花巷客户服务中心 收货人：黄丕城 189****6038</p>
+							</div>
+						</div>
+						<div>
+							<p>总额 <span class="red">￥ 100.00</span>元</p>
+							<p>（优惠<span class="red">￥.00</span>）</p>
+							<p>网付通  不需要邮寄</p>
+						</div>
+						<div class="link">
+							<p>已支付</p>
+							<p><a href="order-info.html">订单详情</a></p>
+						</div>
+						<div class="link">
+							<p><a href="jxjy.html" class="add-btn">继续购物</a></p>
+						</div>
+					</div>	
+					<!--循环记录结束-->
+					<!--循环记录开始-->						
+					<h2 class="tab-title">
+						<span>2019-04-15  14:32:51</span>
+						<span>订单编号：C201907150982123695412</span>
+						<a href="#"><i class="layui-icon layui-icon-delete"></i> </a>
+					</h2>
+					<div class="tab-conBox">
+						<div>
+						    <ul>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							    <li>
+							    	<p>2018/继续教育课程/会计专业继续教育</p>
+							    	<p>100.00 X 1</p>
+							    </li>
+							</ul>
+						</div>						    		
+						<div class="fp-address"><p>无申请发票</p></div>
+						<div>
+							<p>总额 <span class="red">￥ 100.00</span>元</p>
+							<p>（优惠<span class="red">￥.00</span>）</p>
+							<p>网付通  不需要邮寄</p>
+						</div>
+						<div class="link">
+							<p>已支付</p>
+							<p><a href="order-info.html">订单详情</a></p>
+						</div>
+						<div class="link">
+							<p><a href="jxjy.html" class="add-btn">继续购物</a></p>
+						</div>
+					</div>	
+					<!--循环记录结束-->
+				</div>
+				<div id="page" class="page">
+					<a href="#">首页</a>
+					<a href="#" class="act">上一页</a>
+					<span>1/2</span>
+					<a href="#">下一页</a>
+					<a href="#">尾页</a>
+					<span>共14条记录</span>
+					<input type="text" value="1" />
+					<button type="button">确定</button>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<section class="top">
+				<div class="layui-container">
+					<b>联系我们</b>        
+					<span>· 市级：83282276</span>
+					<span>· 禅城区：83203351</span> 
+					<span>· 南海区：86229326</span> 
+					<span>· 顺德区：22835586</span>
+					<span>· 高明区：88635656</span>
+					<span>· 三水区：87736245</span>                                      
+				</div>				
+			</section>
+			<section class="layui-container footer">
+				<div class="layui-row layui-col-space20">
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md1"><img src="img/wx.png"></div>
+					<div class="layui-col-xs6 layui-col-sm4 layui-col-md3">
+						<h2>联系我们</h2>
+						<p>微信公众号：fshjxh</p>
+						<p>地  址：佛山市季华五路财政大厦</p>
+						<p>传真号码：0757-83282513 </p>
+						<p>邮箱：fs83381225@126.com</p>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3 footer-link">
+						<h2>友情链接</h2>
+						<a href="">广东省财政厅</a>
+						<a href="">广东省会计学会</a>
+						<a href="">佛山市财政局</a>
+						<a href="">禅城区财政局</a>
+						<a href="">南海区财政局</a>
+						<a href="">顺德区财政局</a>
+						<a href="">高明区财政局</a>
+						<a href="">三水区财政局</a>
+						<a href="">佛山市文明网</a>
+					</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md4">
+						<p>粤ICP备17138353号-1     粤公网安备 44060402000661号</p>
+						<p>版权所有：佛山市会计学会 CopyRight(c) All Rights Reserved  </p>
+						<p>技术支持：广州普金科技股份有限公司</p>
+						<p>建议使用IE8以上版本浏览器 <img src="img/footer-tu.png"></p>
+					</div>
+				</div>				
+			</section>
+		</footer>
+	</body>
+	<script src="js/layuiadmin/layui/layui.all.js"></script>
+	<script src="js/layuiadmin/laydate/laydate.js"></script><!--日期JS-->
+	<script>
+		//导航栏
+		var $ = layui.$
+	    element = layui.element;	    
+	    form = layui.form;
+	    laydate = layui.laydate;
+	    
+		//同时绑定多个日期
+		lay('.test-item').each(function(){
+		  laydate.render({
+		    elem: this
+		    ,trigger: 'click'
+		  });
+		}); 
+		
+		//鼠标移入出现收货地址 
+        $(".address-pop").hover(function (){ 
+        	$(this).parents(".fp-address").children(".address-con").show("slow");
+        },function (){  
+            $(this).parents(".fp-address").children(".address-con").hide("slow");
+        });  
+	    	  		
+	</script>
+</html>

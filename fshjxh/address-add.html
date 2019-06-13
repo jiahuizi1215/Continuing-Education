@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="background: #fff;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<title>普金税银平台-产品申请</title>
+    <link rel="stylesheet" href="js/layuiadmin/layui/css/layui.css" media="all"><!--公共样式-->		
+	<link rel="stylesheet" href="css/iconfont.css" media="all"> <!--公共样式-->	                                                                 
+	<link rel="stylesheet" href="css/swiper.min.css"><!--公共样式-->	
+	<link rel="stylesheet" href="css/fshjxh-web.css" media="all">
+
+    <style>
+    	.layui-form-checkbox{height: 0px;display: none;}
+    </style>
+    
+</head>
+<body>
+	
+	<!--container-->	
+	<div class="layui-fluid pop">
+	    <div class="layui-card">
+	      <div class="layui-card-body" style="padding:5px;">
+	        <div class="layui-form" action="" lay-filter="component-form-group">
+	        	
+	        	<div class="layui-form-item">
+		          	<label class="layui-form-label"><span class="red">*</span> 收货人名称</label>
+		            <input type="text" name="username" lay-verify="required" placeholder="请输入收货人名称" autocomplete="off" class="layui-input">
+		        </div>
+	          
+	            <div class="layui-form-item">
+	          		<label class="layui-form-label"><span class="red">*</span> 联系电话</label>
+	            	<input type="text" name="phone" lay-verify="required|phone" placeholder="请输入联系电话" autocomplete="off" class="layui-input">
+	            </div>
+	            
+	            <div class="layui-form-item">
+	          		<label class="layui-form-label"><span class="red">*</span> 所在地区</label>
+	          		<div class="area">
+	          			<select name="city" lay-verify="required">
+					        <option value=""></option>
+					        <option value="0">北京</option>
+					        <option value="1">上海</option>
+					        <option value="2">广州</option>
+					        <option value="3">深圳</option>
+					        <option value="4">杭州</option>
+					    </select>
+					    <select name="city" lay-verify="required">
+					        <option value=""></option>
+					        <option value="0">北京</option>
+					        <option value="1">上海</option>
+					        <option value="2">广州</option>
+					        <option value="3">深圳</option>
+					        <option value="4">杭州</option>
+					    </select>
+					    <select name="city" lay-verify="required">
+					        <option value=""></option>
+					        <option value="0">北京</option>
+					        <option value="1">上海</option>
+					        <option value="2">广州</option>
+					        <option value="3">深圳</option>
+					        <option value="4">杭州</option>
+					    </select>
+	          		</div>	            	
+	            </div>	
+	            
+	            <div class="layui-form-item">
+	          		<label class="layui-form-label"><span class="red">*</span> 街道地址</label>
+	            	<input type="text" name="phone" lay-verify="required|phone" placeholder="请输入街道地址" autocomplete="off" class="layui-input">
+	            </div>	
+	            
+	             <div class="layui-form-item">
+	          		<label class="layui-form-label">是否默认</label>
+	            	<input type="radio" name="yes" value="是" title="是">
+        			<input type="radio" name="no" value="否" title="否" checked>
+	            </div>
+	      	       	          	          
+	        </div>
+	      </div>
+	    </div>
+	</div>
+  
+ 
+
+	<script src="js/layuiadmin/layui/layui.all.js"></script>
+	<script>
+	    var $ = layui.$
+	    ,layer = layui.layer
+	    ,form = layui.form;
+		  
+	    /* 监听提交 */
+	    form.on('submit(component-form-demo1)', function(data){
+	      parent.layer.alert(JSON.stringify(data.field), {
+	        title: '最终的提交信息'
+	      })
+	      return false;
+	    });
+	    
+		
+	</script>
+</body>
+</html>
